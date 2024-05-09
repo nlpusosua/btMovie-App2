@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+.movie-poster{
+    height: 250px;
+}
+
+.movie-poster img {
+    object-fit: cover;
+    transition: all 0.3s;
+}
+
+ul{
+    list-style: none;
+}
+
+.movie-poster:hover img{
+    transform: scale(1.2);
+}
+
+ul li {
+    list-style: none;
+}
+.breadcrumb{
+    background-color:#212529;
+    margin-left: 310px;
+    margin-right: 310px;
+}
+
+.c1{
+    background-color: #212529;
+    margin-left: 310px;
+    margin-right: 310px;
+}
+
+.img{
+    margin-left:14px ;
+}
+.row h4{
+    margin-right: 240px;
+    
+}
